@@ -17,7 +17,7 @@
   },
   "name":"Sunflower In The Air",
   "description":"Hugo tranquilpeak theme demo",
-  "url":"https:\/\/donnydzhang.github.io\/",
+  "url":"https:\/\/donnydzhang.github.io\/tags\/",
   "keywords":"[]"
 }
 
@@ -33,10 +33,10 @@
 
 <meta property="og:description" content="Hugo tranquilpeak theme demo">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Sunflower In The Air">
-<meta name="twitter:title" content="Sunflower In The Air">
-<meta property="og:url" content="https://donnydzhang.github.io/">
-<meta property="twitter:url" content="https://donnydzhang.github.io/">
+<meta property="og:title" content="Tags">
+<meta name="twitter:title" content="Tags">
+<meta property="og:url" content="https://donnydzhang.github.io/tags/">
+<meta property="twitter:url" content="https://donnydzhang.github.io/tags/">
 <meta property="og:site_name" content="Sunflower In The Air">
 <meta property="og:description" content="Hugo tranquilpeak theme demo">
 <meta name="twitter:description" content="Hugo tranquilpeak theme demo">
@@ -59,16 +59,16 @@
 
 
 
-    <title>Sunflower In The Air</title>
+    <title>Tags</title>
 
     <link rel="icon" href="https://donnydzhang.github.io/favicon.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://donnydzhang.github.io/index.xml">
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://donnydzhang.github.io/tags/index.xml">
     
 
     
 
-    <link rel="canonical" href="https://donnydzhang.github.io/">
+    <link rel="canonical" href="https://donnydzhang.github.io/tags/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -212,74 +212,47 @@
         class="
                hasCoverMetaIn
                ">
-        <section class="postShorten-group main-content-wrap">
-          
-          
-            
-  
-    
-  
 
+        <div id="tags-archives" class="main-content-wrap">
+          <form id="filter-form" action="#">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="Search tag" autofocus="autofocus">
+          </form>
+          <h4 class="archive-result text-color-base text-xlarge"
+              data-message-zero="no tag found"
+              data-message-one="1 tag found"
+              data-message-other="{n} tags found"></h4>
 
-  
-
-<article class="postShorten postShorten--thumbnailimg-left">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title">
-      
-        <a class="link-unstyled" href="https://donnydzhang.github.io/2024/03/chinese-test/" aria-label="Open the post: Hello World">
-      
-          Hello World
-        </a>
-      </h1>
-      
-  <div class="postShorten-meta post-meta">
-    
-      <time datetime="2024-03-03T00:00:00Z">
-        
+            <section>
+              
+                <a class="tag tag--primary tag--small" href="#china-list" data-tag="china">
+                  china
+                </a>
+              
+            </section>
+            <section class="boxes">
+              
+                <div id="china-list" class="archive box" data-tag="china">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="china">
+                      china (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://donnydzhang.github.io/2024/03/chinese-test/">
+                          Hello World
+                        </a>
+                        <span class="archive-post-date"> - 
   March 3, 2024
-
-      </time>
-    
-    
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="https://donnydzhang.github.io/categories/wiki">wiki</a>
-    
-  
-
-  </div>
-
-    </div>
-    <div class="postShorten-excerpt">
-      
-        <p>This is a Hello message from this blog.</p>
-      
-      <p>
-        
-          <a href="https://donnydzhang.github.io/2024/03/chinese-test/" class="postShorten-excerpt_link link" aria-label="Open the post: Hello World">Continue reading</a>
-        
-        
-      </p>
-    </div>
-  </div>
-  
-    <a href="https://donnydzhang.github.io/2024/03/chinese-test/" aria-label="Open the post: Hello World">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" src="https://donnydzhang.github.io/img/chicago.JPG"/>
-      </div>
-    </a>
-  
-</article>
-
-          
-          
-
-        </section>
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+           </section>
+         </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2024 Dongyu Zhang. All Rights Reserved
@@ -288,7 +261,6 @@
 
       </div>
     </div>
-    
     <div id="about">
   <div id="about-card">
     <div id="about-btn-close">
@@ -319,8 +291,6 @@
 </div>
 
     
-
-    
   
     
       <div id="cover" style="background-image:url('https://donnydzhang.github.io/images/cover.jpg');"></div>
@@ -328,7 +298,8 @@
   
 
 
-    
+  </body>
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -395,7 +366,4 @@ $(document).ready(function() {
 
 
 
-    
-  </body>
 </html>
-
